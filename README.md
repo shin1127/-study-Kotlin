@@ -1,5 +1,5 @@
 # -study-Kotlin
-I learned Kotlin/
+I learned Kotlin
 
 
 # Reference
