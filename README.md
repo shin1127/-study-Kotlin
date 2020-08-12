@@ -4,4 +4,4 @@ I learned Kotlin
 
 # Reference
 
-- Android Basics in Kotlin
+- [Android Kotlin Basics in Kotlin](https://developer.android.com/courses/android-basics-kotlin/unit-1)
