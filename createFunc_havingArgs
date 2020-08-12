@@ -1,0 +1,40 @@
+// 関数に複数の仮引数を入れるときはこうする
+// 4もStringにもInt型にも解釈できるってことで、Int型をわざわざ指定しないといけないぽい・・
+
+fun main() {
+    val border = "`-._,-'"
+    val timesToRepeat = 4
+    printBorder(border, timesToRepeat)
+    println("  Happy Birthday, Jhansi!")
+    printBorder(border, timesToRepeat)
+}
+
+fun printBorder(border: String, timesToRepeat: Int) {
+    repeat(timesToRepeat) {
+        print(border)
+    }
+    println()
+}
+
+// `-._,-'`-._,-'`-._,-'`-._,-'
+//   Happy Birthday, Jhansi!
+// `-._,-'`-._,-'`-._,-'`-._,-'
+
+
+// fun main() {
+//     val border = "aaaaa"
+//     val timesToRepeat = 4
+//     printBorder(timesToRepeat)
+//     println("  Happy Birthday, Jhansi!")
+//     printBorder(timesToRepeat)
+// }
+
+// fun printBorder(timesToRepeat) {
+//     repeat(timesToRepeat) {
+//         print("aaaaa")
+//     }
+//     println()
+// }
+
+// output
+// A type annotation is required on a value parameter
