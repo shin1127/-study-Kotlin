@@ -3,7 +3,7 @@ I learned Kotlin
 Web以外のことがやりたくなったのでとりあえず触ってみた。  
 しばらく凍結すると思う。
 
-#memo
+# memo
 
 
 # Reference
